@@ -43,8 +43,8 @@ Also, an object exists if all of the following methods MAY return `false`:
 * `public_methods(false).empty?`
 * `zero?`
 
-When an object exists, the `.aru?` method returns `true`. Otherwise, `false`.
-`.nai?` is the opposite.
+When an object exists, the `#aru?` method returns `true`. Otherwise, `false`.
+`#nai?` is the opposite.
 
 ```ruby
 BasicObject.new.aru?  # => false
